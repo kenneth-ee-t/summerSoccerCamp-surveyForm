@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #9f9d32;
+    color: #f5f6f7;
+    font-family: tahoma;
+    font-size: 16px;
+    /*background-image: url("https://th.bing.com/th/id/OIP.GraMI2WLt7ms0auaL5h-XAHaE8?w=280&h=187&c=7&r=0&o=5&dpr=1.1&pid=1.7") ;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+  }
+  
+  label{
+    display: block;
+    margin: 0.5em 0;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  p {
+    font-style: italic;
+  }
+  
+  form {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 300px;
+    width: 60vw;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border:0;
+    padding: 1.5rem 0;
+    border-bottom: 3px solid #6b6b4f; 
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    margin: 10px 0 0;
+    min-height: 2em;
+  }
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 1.5em;
+    font-size: 1.1rem;
+    min-width: 300px;
+  }
+  
+  input[type="file"]{
+    padding:1px 2px;
+  }
+  
+  legend {
+    padding: 20px 0 0;
+  }
